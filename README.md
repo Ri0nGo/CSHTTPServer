@@ -6,7 +6,7 @@
 # 功能
 
 
-- [X] 封装了请求和处理的方法
+- [X] 封装了请求和响应的处理方法（仅针对Content-Type=application/json请求）
 - [ ] 基于HTTPMethod 构建路由树
 - [ ] 提供GET，POST，PUT，DELETE，PATCH等HTTP 方法的快速注册
 - [ ] 多线程处理 HTTP 请求
