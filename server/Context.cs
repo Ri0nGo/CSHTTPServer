@@ -58,7 +58,7 @@ namespace opcda_collector.server
 
         static string readRequestBody(HttpListenerRequest req)
         {
-            using (var reader = new StreamReader(req.InputStream, req.ContentEncoding))
+            using (var reader = new StreamReader(req.InputStream, Encoding.UTF8))
             {
                 return reader.ReadToEnd();
             }
